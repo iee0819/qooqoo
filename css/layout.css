@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #ff8f16;
+    --text-color: #202124;
+    --line-color: #ddd;
+    --w-color: #fff;
+}
+
+body {
+    color: var(--text-coror);
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@media (max-width:1202px) {
+    .inner {
+        margin: 0 16px;
+    }
+}
+
+.default {
+    padding: 80px 0;
+}
+
+.default .title {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+
+.default .title h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.default .title .desc {
+    display: block;
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
