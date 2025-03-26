@@ -26,6 +26,7 @@
     margin: 0 auto;
 
     height: 103px;
+    
 
     transition: 0.4s;
 }
@@ -439,14 +440,14 @@
     writing-mode: vertical-lr;
     font-size: 64px;
     line-height: 100px;
-    background: url(../images/main_visual01.jpg);
+    background: url(../images/main_visual01.jpg)no-repeat center center/cover;
 }
 
 .main_visual .main_visual_slide .itm02 {
     font-family: "Merriweather", serif;
     font-size: 64px;
     text-align: center;
-    background: url(../images/main_visual02.jpg);
+    background: url(../images/main_visual02.jpg)no-repeat center center/cover;
 }
 
 .main_visual .main_visual_slide .itm03 {
@@ -454,7 +455,7 @@
     writing-mode: vertical-lr;
     font-size: 64px;
     line-height: 100px;
-    background: url(../images/main_visual03.jpg);
+    background: url(../images/main_visual03.jpg)no-repeat center center/cover;
 }
 
 .main_visual .main_visual_slide .itm .slg {
